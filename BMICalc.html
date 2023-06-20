@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/BMI icon.webp" type="png">
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="BMICalc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/422c3094e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="main__container">
+      <section class="main__container__child">
+        <h1 class="main__title">
+          Body Mass <br />
+          Index Calculator
+        </h1>
+        <p class="main__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+          veritatis laborum sequi similique cupiditate, minus eveniet sint
+          labore totam et voluptas corporis aut, ipsum, incidunt cumque sit
+          consequatur velit aspernatur.
+        </p>
+      </section>
+    </section>
+    <form class="form__container" action="">
+      <label class="form__title" for="">Enter your details below</label><br />
+      <div class="form__container__inputs">
+        <div class="form__container__column">
+          <div class="form__line form__radio__button">
+            <input
+              class="form__radio"
+              id="metric__radio"
+              type="radio"
+              name="system"
+              checked
+            />
+            <label class="form__label" for="metric__radio">Metric</label>
+          </div>
+          <div class="form__line">
+            <label class="form__label__data" for="">Height</label>
+          </div>
+          <div class="form__line">
+            <input
+              class="form__input__data"
+              id="height__input"
+              type="number"
+              placeholder="0"
+            />
+            <span class="form__span--height" id="span__height">cm</span>
+          </div>
+        </div>
+        <div class="form__container__column">
+          <div class="form__line form__radio__button">
+            <input
+              class="form__radio"
+              id="imperial__radio"
+              type="radio"
+              name="system"
+            />
+            <label class="form__label" for="imperial__radio">Imperial</label
+            ><br />
+          </div>
+          <div class="form__line">
+            <label class="form__label__data" for="">Weight</label>
+          </div>
+          <div class="form__line">
+            <input
+              class="form__input__data"
+              id="weight__input"
+              type="number"
+              placeholder="0"
+            />
+            <span class="form__span--weight" id="span__weight">kg</span>
+          </div>
+        </div>
+      </div>
+      <div class="bmi__result">
+        <h3>Welcome!</h3>
+        <p>Enter your height and weight, and you'll see your BMI result here</p>
+      </div>
+    </form>
+    <section class="secondary__container">
+      <section class="img__container">
+        <img src="" alt="" />
+      </section>
+      <section class="secondary__text">
+        <h2>What your BMI result means</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+          molestias, sint voluptate omnis repellendus alias sunt, pariatur
+          nostrum ipsam dignissimos, saepe nam at quis necessitatibus a itaque
+          sit earum est laborum explicabo maiores. Quam dolorem ipsam eos
+          aliquam qui nemo voluptatum voluptas sed placeat vel porro voluptates
+          asperiores, nam rerum.
+        </p>
+      </section>
+    </section>
+    <section class="icons__container">
+      <div class="icons__div">
+        <i class="fa-solid fa-bowl-rice"></i>
+        <h4>Healthy eating</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, quos
+          harum expedita minima ea cupiditate?
+        </p>
+      </div>
+      <div class="icons__div">
+        <i class="fa-solid fa-dumbbell"></i>
+        <h4>Regular exercise</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sit
+          necessitatibus nisi corrupti quae sed.
+        </p>
+      </div>
+      <div class="icons__div">
+        <i class="fa-solid fa-moon"></i>
+        <h4>Adequate sleep</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nostrum
+          dolore nesciunt molestiae odit tempora.
+        </p>
+      </div>
+    </section>
+    <section class="final__section">
+      <div class="final__div--first">
+        <div class="div__text">
+          <h2>Limitations of BMI</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+            tenetur harum recusandae nihil architecto tempora? Cupiditate, magni
+            eius rem quam in quo ipsum a autem nesciunt inventore officiis optio
+            reprehenderit.
+          </p>
+        </div>
+        <div class="div__box">
+          <h5><i class="fa-solid fa-venus-mars"></i>Gender</h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            omnis ratione minus fugiat saepe repellat excepturi quaerat natus
+            nihil asperiores.
+          </p>
+        </div>
+      </div>
+      <div class="final__div--second">
+        <div class="div__box">
+          <h5><i class="fa-solid fa-cake-candles"></i>Age</h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+            odio? Excepturi animi amet ipsam totam.
+          </p>
+        </div>
+        <div class="div__box">
+          <h5><i class="fa-solid fa-hand-fist"></i>Muscle</h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+            odio? Excepturi animi amet ipsam totam.
+          </p>
+        </div>
+      </div>
+      <div class="final__div--third">
+        <div class="div__box">
+          <h5><i class="fa-solid fa-baby"></i>Pregnancy</h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eum.
+            Dolor odit exercitationem vero voluptate esse commodi magni tempore
+            voluptates. Reiciendis sint molestiae natus architecto?
+          </p>
+        </div>
+        <div class="div__box">
+          <h5><i class="fa-solid fa-person"></i>Race</h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eum.
+            Dolor odit exercitationem vero voluptate esse commodi magni tempore
+            voluptates. Reiciendis sint molestiae natus architecto?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- JS file -->
+    <script src="BMICalc.js"></script>
+  </body>
+</html>
